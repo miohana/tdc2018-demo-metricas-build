@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDC.Metrics", "TDC.Metrics\TDC.Metrics.csproj", "{09D4F930-3D30-40B8-AD15-844FF82916B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{5E645944-BDC7-4E6D-B066-D6D0EA528AF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{5EB49A48-BFD7-4758-9047-C21C4291807D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Tests", "3-Tests", "{DE9DE774-07AC-4247-94CA-56EDD74844E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Coverage", "4-Coverage", "{900237A5-AE28-42DC-B480-5800EED17921}"
+	ProjectSection(SolutionItems) = preProject
+		CodeCoverage.ps1 = CodeCoverage.ps1
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDC.Metrics.Application", "TDC.Metrics.Application\TDC.Metrics.Application.csproj", "{17804A12-287F-493E-AEA5-019477EA8CE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDC.Metrics.Domain", "TDC.Metrics.Domain\TDC.Metrics.Domain.csproj", "{736C7D3C-FA81-4257-A523-BDF7B69DF422}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDC.Metrics.UnitTest", "TDC.Metrics.UnitTest\TDC.Metrics.UnitTest.csproj", "{74F60E58-46CC-4016-9FD3-5EC936756577}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Api", "0-Api", "{4071DA6B-736E-413E-B1F9-9DDEB3A03145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09D4F930-3D30-40B8-AD15-844FF82916B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D4F930-3D30-40B8-AD15-844FF82916B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D4F930-3D30-40B8-AD15-844FF82916B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D4F930-3D30-40B8-AD15-844FF82916B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17804A12-287F-493E-AEA5-019477EA8CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17804A12-287F-493E-AEA5-019477EA8CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17804A12-287F-493E-AEA5-019477EA8CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17804A12-287F-493E-AEA5-019477EA8CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736C7D3C-FA81-4257-A523-BDF7B69DF422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736C7D3C-FA81-4257-A523-BDF7B69DF422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736C7D3C-FA81-4257-A523-BDF7B69DF422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736C7D3C-FA81-4257-A523-BDF7B69DF422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F60E58-46CC-4016-9FD3-5EC936756577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F60E58-46CC-4016-9FD3-5EC936756577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F60E58-46CC-4016-9FD3-5EC936756577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F60E58-46CC-4016-9FD3-5EC936756577}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09D4F930-3D30-40B8-AD15-844FF82916B8} = {4071DA6B-736E-413E-B1F9-9DDEB3A03145}
+		{17804A12-287F-493E-AEA5-019477EA8CE5} = {5E645944-BDC7-4E6D-B066-D6D0EA528AF2}
+		{736C7D3C-FA81-4257-A523-BDF7B69DF422} = {5EB49A48-BFD7-4758-9047-C21C4291807D}
+		{74F60E58-46CC-4016-9FD3-5EC936756577} = {DE9DE774-07AC-4247-94CA-56EDD74844E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A107DF4C-2A90-4FFD-9A4B-43A16F3FBC02}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://marraia.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TDC.Metrics.Application\\TDC.Metrics.Application.csproj
+		SccProjectTopLevelParentUniqueName1 = TDC.Metrics.sln
+		SccProjectName1 = TDC.Metrics.Application
+		SccLocalPath1 = TDC.Metrics.Application
+		SccProjectUniqueName2 = TDC.Metrics.Domain\\TDC.Metrics.Domain.csproj
+		SccProjectTopLevelParentUniqueName2 = TDC.Metrics.sln
+		SccProjectName2 = TDC.Metrics.Domain
+		SccLocalPath2 = TDC.Metrics.Domain
+		SccProjectUniqueName3 = TDC.Metrics.UnitTest\\TDC.Metrics.UnitTest.csproj
+		SccProjectTopLevelParentUniqueName3 = TDC.Metrics.sln
+		SccProjectName3 = TDC.Metrics.UnitTest
+		SccLocalPath3 = TDC.Metrics.UnitTest
+		SccProjectUniqueName4 = TDC.Metrics\\TDC.Metrics.csproj
+		SccProjectTopLevelParentUniqueName4 = TDC.Metrics.sln
+		SccProjectName4 = TDC.Metrics
+		SccLocalPath4 = TDC.Metrics
+	EndGlobalSection
+EndGlobal
